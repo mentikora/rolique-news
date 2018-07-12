@@ -1,2 +1,7 @@
 .logo {
-  width: 250px; }
+  /* modification large by default */
+  /* modification small */ }
+  .logo--large {
+    width: 250px; }
+  .logo--small {
+    width: 100px; }

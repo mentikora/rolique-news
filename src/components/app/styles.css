@@ -1,9 +1,13 @@
 .App {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   max-width: 1200px;
   min-height: 100vh;
   margin-left: auto;
   margin-right: auto; }
+  @media (max-width: 1199px) {
+    .App {
+      width: 90%; } }
   .App .main {
     flex-grow: 1; }

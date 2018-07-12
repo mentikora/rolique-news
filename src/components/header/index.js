@@ -4,7 +4,7 @@ import './styles.css';
 import Logo from '../logo';
 
 export default () => (
-  <header className="header">
+  <header className='header'>
     <Logo />
   </header>
 )

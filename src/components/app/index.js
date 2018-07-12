@@ -3,17 +3,21 @@ import './styles.css';
 
 import Header from '../header';
 import Footer from '../footer';
+import News from '../news';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className='App'>
 
         {/* header */}
         <Header />
 
         {/* main content wrapper */}
-        <main className="main">
+        <main className='main'>
+
+          {/* news wrapper */}
+          <News />
 
         </main>
 
