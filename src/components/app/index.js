@@ -5,6 +5,8 @@ import Header from '../header';
 import Footer from '../footer';
 import News from '../news';
 
+import Grid from '@material-ui/core/Grid';
+
 class App extends Component {
   render() {
     return (
@@ -16,13 +18,25 @@ class App extends Component {
         {/* main content wrapper */}
         <main className='main'>
 
-          {/* news wrapper */}
-          <News />
+          <Grid container spacing={16}>
+
+            {/* news wrapper */}
+            <Grid item md={9}>
+              <News />
+            </Grid>
+
+            {/* else */}
+            <Grid item md={3}>
+              right side col
+            </Grid>
+
+          </Grid>
 
         </main>
 
         {/* footer */}
         <Footer />
+        
       </div>
     );
   }
