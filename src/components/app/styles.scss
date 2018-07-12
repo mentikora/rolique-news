@@ -1,3 +1,15 @@
-body {
-  background-color: #F4F4F4;
+.App{
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+
+  .main{
+    flex-grow: 1;
+  }
 }

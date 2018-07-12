@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
 import './styles.css';
 
+import Header from '../header';
+import Footer from '../footer';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        hello world
+
+        {/* header */}
+        <Header />
+
+        {/* main content wrapper */}
+        <main className="main">
+
+        </main>
+
+        {/* footer */}
+        <Footer />
       </div>
     );
   }
