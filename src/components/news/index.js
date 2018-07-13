@@ -11,12 +11,12 @@ const news = [
   {
     img: 'https://d1u5p3l4wpay3k.cloudfront.net/allstars_gamepedia/2/2b/Braxis_Outpost.jpg?version=baa4f31d2d93b98aa21282b990ba74ec',
     title: 'Epic Fifa masters combat',
-    text: 'text'
+    text: 'Roman Malets, aka "The first of Rolique House, the invincible Master of FIFA, King of the Playroom temple and true Adept of Console" obviosly, took the first place, leaving Volodymyr Paskiv rest on the second place with a bitter desire of revenge. It was spectacular!'
   },
   {
     img: 'https://d1u5p3l4wpay3k.cloudfront.net/allstars_gamepedia/2/2b/Braxis_Outpost.jpg?version=baa4f31d2d93b98aa21282b990ba74ec',
     title: 'Knowledge-sharing / Knowledge-using ',
-    text: 'text text'
+    text: 'Vlad Bilyi slayed the Dev Challenge taking the first place, meanwhile, Anton Yatsenyuk shed the light of knowledge all around the Chernivtsi JS. Guys, you\'re awesome and we\'re proud to have you amoung us!'
   },
   {
     img: 'https://d1u5p3l4wpay3k.cloudfront.net/allstars_gamepedia/2/2b/Braxis_Outpost.jpg?version=baa4f31d2d93b98aa21282b990ba74ec',
