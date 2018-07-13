@@ -1,4 +1,15 @@
 .header{
-  margin-bottom: 25px;
-  padding: 15px 25px 0;
+  padding: {
+    top: 75px;
+    bottom: 75px;
+    left: 25px;
+    right: 25px;
+  }
+
+  background: {
+    image: url('./header.png');
+    position: calc(100% - 25px) bottom;
+    size: contain;
+    repeat: no-repeat;
+  }
 }
