@@ -20,13 +20,24 @@ const vacancies = [
 export default () => (
   <Card className="vacancies">
     <CardContent className="vacancies__content">
-      <Typography component='h2' variant='headline' gutterBottom  color='inherit'>
+      <Typography 
+        component='h2' 
+        variant='headline' 
+        gutterBottom  
+        color='inherit'
+      >
         Open vacancies at Rolique
       </Typography>
-      <Typography component='p' color='inherit'>
+      <Typography 
+        component='p' 
+        color='inherit'
+      >
         This summer's gonna be super hot. Maybe even as hot as the open vacancies at Rolique:
       </Typography>
-      <Typography component='div' color='inherit'>
+      <Typography 
+        component='div' 
+        color='inherit'
+      >
         <ul className="vacancies-list">
           {
             vacancies.map((el, key) => (
@@ -35,7 +46,10 @@ export default () => (
           }
         </ul>
       </Typography>
-      <Typography component='p' color='inherit'>
+      <Typography 
+        component='p' 
+        color='inherit'
+      >
         PS. Feel free to refer your friends and acquaintance to Tanya, Stepan and Albina.
       </Typography>
     </CardContent>

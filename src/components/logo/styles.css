@@ -1,14 +1,10 @@
 .logo {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  padding: 15px;
-  background: var(--primary-blue);
+  justify-content: center;
   /* modification large by default */
   /* modification small */ }
   .logo--large {
-    width: 150px;
-    height: 150px; }
+    width: 150px; }
   .logo--small {
-    width: 100px;
-    height: 100px; }
+    width: 100px; }

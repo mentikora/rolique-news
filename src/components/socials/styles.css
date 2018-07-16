@@ -1,0 +1,15 @@
+.socials {
+  display: flex;
+  align-items: center; }
+  .socials a {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: .75;
+    transition: opacity .25s ease-in-out; }
+    .socials a:hover {
+      opacity: 1; }
+  .socials svg {
+    display: block;
+    width: 30px;
+    height: 30px; }

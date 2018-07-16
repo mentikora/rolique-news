@@ -40,7 +40,7 @@ Logo.propTypes = {
   size: PropTypes.string
 }
 Logo.defaultProps = {
-  fill: 'var(--primary-white)',
+  fill: 'var(--primary-blue)',
   extended: false,
   size: 'large'
 }

@@ -1,21 +1,15 @@
 .logo{
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-
-  padding: 15px;
-  
-  background: var(--primary-blue);
+  justify-content: center;
 
   /* modification large by default */
   &--large{
     width: 150px;
-    height: 150px;
   }
 
   /* modification small */
   &--small{
     width: 100px;
-    height: 100px;
   }
 }

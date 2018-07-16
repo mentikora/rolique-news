@@ -1,10 +1,9 @@
 import React from 'react';
 import './styles.css';
-
-import Logo from '../logo';
+import Socials from '../socials';
 
 export default () => ( 
   <footer className='footer'>
-    <Logo fill='#fff' extended={true} size='small'/>
+    <Socials />
   </footer>
 )
