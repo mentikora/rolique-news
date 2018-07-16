@@ -5,6 +5,7 @@ import Footer from '../footer';
 import Welcome from '../welcome';
 import News from '../news';
 import Vacancies from '../vacancies';
+import Bithdays from '../birthday';
 import Grid from '@material-ui/core/Grid';
 
 class App extends Component {
@@ -18,12 +19,13 @@ class App extends Component {
               <Welcome />
             </Grid>
           </Grid>
-          <Grid container spacing={16}>
+          <Grid container spacing={24}>
             <Grid item xs={12} md={9}>
               <News />
             </Grid>
             <Grid item xs={12} md={3}>
               <Vacancies />
+              <Bithdays />
             </Grid>
           </Grid>
         </main>

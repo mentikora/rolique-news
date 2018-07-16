@@ -29,23 +29,3 @@
     z-index: 3;
   }
 }
-
-.vacancies-list{
-  margin: {
-    top: 15px;
-    bottom: 15px;
-  }
-  padding: 0;
-  list-style: none;
-  
-  li{
-    position: relative;
-    
-    &::before{
-      content: '\2014';
-      display: inline-block;
-      margin-right: 5px;
-    }
-  }
-
-}

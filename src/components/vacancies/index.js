@@ -38,7 +38,7 @@ export default () => (
         component='div' 
         color='inherit'
       >
-        <ul className="vacancies-list">
+        <ul className="vacancies-list global-list">
           {
             vacancies.map((el, key) => (
               <li key={key}>{el}</li>

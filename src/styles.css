@@ -1,0 +1,14 @@
+.global-list{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0;
+  list-style: none;
+} 
+  .global-list li{
+    position: relative;
+  }
+    .global-list li::before{
+      content: '\2014';
+      display: inline-block;
+      margin-right: 5px;
+    }

@@ -19,15 +19,3 @@
   .vacancies__content {
     position: relative;
     z-index: 3; }
-
-.vacancies-list {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 0;
-  list-style: none; }
-  .vacancies-list li {
-    position: relative; }
-    .vacancies-list li::before {
-      content: '\2014';
-      display: inline-block;
-      margin-right: 5px; }
