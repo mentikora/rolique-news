@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './styles.css';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -27,12 +27,12 @@ export default () => (
       </Typography>
       <ul className="birthdays-list global-list">
         {
-          blist.map(b => (
-            <li>
+          blist.map((b, k) => (
+            <Fragment key={k}>
               {b.date}
               <br/>
               {b.person}
-            </li>
+            </Fragment>
           ))
         }    
       </ul>
