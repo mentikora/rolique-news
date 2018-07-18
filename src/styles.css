@@ -6,9 +6,13 @@
 } 
   .global-list li{
     position: relative;
+    padding-left: 20px;
   }
     .global-list li::before{
       content: '\2014';
       display: inline-block;
-      margin-right: 5px;
+
+      position: absolute;
+      top: 0; left: 0;
+      z-index: 2;
     }
