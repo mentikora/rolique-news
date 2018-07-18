@@ -44,9 +44,6 @@ class Birthdays extends Component {
           >
             <ul className="birthdays-list global-list">
               {
-                !this.state.birthdays ? '' : console.log(this.state.birthdays)
-              }
-              {
                 this.state.birthdays && this.state.birthdays.map((item, i) => (
                   <li key={i}>
                     {item.fields.date} {item.fields.name} {item.fields.surname}
