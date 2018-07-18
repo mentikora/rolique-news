@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import * as contentful from 'contentful';
+import defaultImage from './default.jpeg';
 
 const client = contentful.createClient({
   space: 'csc8avj2n586',
@@ -32,11 +33,14 @@ class News extends Component {
     return(
       <Grid container spacing={16}>
         {
+          !this.state.news ? '' : console.log(this.state.news)
+        }
+        {
           this.state.news && this.state.news.map((item, i) => <Grid item md={6} xs={12} key={i}>
               <Card className='news-item'>
                 <CardMedia
                   className='news-item__image'
-                  // image={item.img}
+                  image={item.fields.image ? item.fields.image.fields.file.url : defaultImage}
                   title='Contemplative Reptile'
                 />
                 <CardContent>
