@@ -31,6 +31,7 @@ class Birthdays extends Component {
           <Typography
             component='h2'
             variant='headline'
+            gutterBottom
           >
             Birthday Boom at Rolique
           </Typography>
