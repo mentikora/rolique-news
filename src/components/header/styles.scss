@@ -1,15 +1,19 @@
 .header{
-  padding: {
-    top: 75px;
-    bottom: 75px;
-    left: 25px;
-    right: 25px;
+  @media(max-width: 577px){
+    padding-bottom: 25px;
   }
-
-  background: {
-    image: url('./header.png');
-    position: calc(100% - 25px) bottom;
-    size: contain;
-    repeat: no-repeat;
+  @media(min-width: 578px){
+    padding: {
+      top: 75px;
+      bottom: 75px;
+      left: 25px;
+      right: 25px;
+    }
+    background: {
+      image: url('./header.png');
+      position: calc(100% - 25px) bottom;
+      size: contain;
+      repeat: no-repeat;
+    }
   }
 }
