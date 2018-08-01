@@ -33,9 +33,6 @@ class News extends Component {
     return(
       <Grid container spacing={16}>
         {
-          !this.state.news ? '' : console.log(this.state.news)
-        }
-        {
           this.state.news && this.state.news.map((item, i) => <Grid item md={6} xs={12} key={i}>
               <Card className='news-item'>
                 <CardMedia

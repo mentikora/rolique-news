@@ -1,0 +1,11 @@
+.no-party{
+  &__image-wrapper{
+    width: 100%;
+    margin-bottom: 0.35em;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+}

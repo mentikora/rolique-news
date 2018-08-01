@@ -1,9 +1,14 @@
-.header {
-  padding-top: 75px;
-  padding-bottom: 75px;
-  padding-left: 25px;
-  padding-right: 25px;
-  background-image: url("./header.png");
-  background-position: calc(100% - 25px) bottom;
-  background-size: contain;
-  background-repeat: no-repeat; }
+@media (max-width: 577px) {
+  .header {
+    padding-bottom: 25px; } }
+
+@media (min-width: 578px) {
+  .header {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url("./header.png");
+    background-position: calc(100% - 25px) bottom;
+    background-size: contain;
+    background-repeat: no-repeat; } }

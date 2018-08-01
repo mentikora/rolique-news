@@ -1,0 +1,8 @@
+.no-party__image-wrapper {
+  width: 100%;
+  margin-bottom: 0.35em; }
+
+.no-party img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block; }

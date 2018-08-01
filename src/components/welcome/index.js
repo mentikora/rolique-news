@@ -20,7 +20,7 @@ export default () => (
         variant='headline'
         className='welcome__heading'
       >
-        What a productive month we had, huh? Let's rewind the calendar and see what we were up to in June!
+        What a productive month we had, huh? Let's rewind the calendar and see what we were up to!
       </Typography>
       <Typography
         component='p'

@@ -10,7 +10,7 @@ export default () => (
       </svg>
     </a>
     {/* instagram */}
-    <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.instagram.com/rolique_rocks/" target="_blank" rel="noopener noreferrer">
       <svg id='Social_Icons' viewBox='0 0 128 128' xmlns='http://www.w3.org/2000/svg'>
         <g id='_x37__stroke'>
           <g id='Instagram_1_'>
