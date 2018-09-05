@@ -28,6 +28,9 @@
 
   /* news item text */
   &__text{
-    
+    a{
+      color: var(--primary-blue);
+      text-decoration: underline;
+    }
   }
 }

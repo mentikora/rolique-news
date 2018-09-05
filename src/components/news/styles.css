@@ -17,3 +17,6 @@
       left: 0;
       z-index: 2;
       background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%); }
+  .news-item__text a {
+    color: var(--primary-blue);
+    text-decoration: underline; }
