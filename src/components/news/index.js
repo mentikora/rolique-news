@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import * as contentful from 'contentful';
-import defaultImage from './default.jpeg';
+import defaultImage from './images/default.jpeg';
 import {  MarkdownPreview  } from 'react-marked-markdown';
 
 const client = contentful.createClient({
@@ -49,7 +49,7 @@ class News extends Component {
                   >
                     {item.fields.title}
                   </Typography>
-                  <Typography component='p'>
+                  <Typography component='div'>
                     <MarkdownPreview className="product-view__text" value={item.fields.text}/>
                   </Typography>
                 </CardContent>

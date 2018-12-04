@@ -41,7 +41,7 @@ class Vacancies extends Component {
             component='p' 
             color='inherit'
           >
-            This summer's gonna be super hot. Maybe even as hot as the open vacancies at Rolique:
+            This winter is gonna be as cold as your ex's heart. Bring around and/or refer some warm people to Rolique!
           </Typography>
           <Typography 
             component='div' 

@@ -28,9 +28,19 @@
 
   /* news item text */
   &__text{
-    a{
-      color: var(--primary-blue);
-      text-decoration: underline;
+
+  }
+  
+  a{
+    color: var(--primary-blue);
+    text-decoration: underline;
+
+    transition: color .15s ease-in-out, background-color .2s ease-in;
+
+    &:hover{
+      text-decoration: none;
+      color: var(--primary-white);
+      background-color: var(--primary-blue);
     }
   }
 }
