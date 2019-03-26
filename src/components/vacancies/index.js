@@ -35,19 +35,19 @@ class Vacancies extends Component {
             gutterBottom  
             color='inherit'
           >
-            Open vacancies at Rolique
+            Актуальні вакансії
           </Typography>
           <Typography 
             component='p' 
             color='inherit'
           >
-            This winter is gonna be as cold as your ex's heart. Bring around and/or refer some warm people to Rolique!
+            Будуй команду, якій довіряєш. рекомендуй своїх друзів та знайомих.
           </Typography>
           <Typography 
             component='div' 
             color='inherit'
           >
-            <ul className="vacancies-list global-list">
+            <ul className="vacancies-list">
               {
                 this.state.vacancies && this.state.vacancies.map((vacancy, i) => (
                   <li key={i}>
@@ -57,12 +57,12 @@ class Vacancies extends Component {
               }
             </ul>
           </Typography>
-          <Typography 
+          {/* <Typography 
             component='p' 
             color='inherit'
           >
             PS. Feel free to refer your friends and acquaintance to Tanya, Stepan and Albina.
-          </Typography>
+          </Typography> */}
         </CardContent>
       </Card>
     )

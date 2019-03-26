@@ -1,29 +1,6 @@
 .vacancies{
-  position: relative;
-  margin-bottom: 24px;
-
   flex-grow: 1;
-
-  background: {
-    image: url('./images/pexels-photo-237180.jpeg');
-    position: 50%;
-    repeat: no-repeat;
-    size: cover;
-  }
-  color: var(--primary-white);
-
-  &::before{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-
-    position: absolute;
-    left: 0; top: 0;
-    z-index: 2;
-
-    background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
-  }
+  border-radius: 0 !important;
 
   &__content{
     position: relative;

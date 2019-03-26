@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './styles.css';
 import Header from '../header';
 import Footer from '../footer';
-import Welcome from '../welcome';
 import News from '../news';
 import Vacancies from '../vacancies';
 import Bithdays from '../birthday';
@@ -15,17 +14,14 @@ class App extends Component {
         <Header />
         <main className='main'>
           <Grid container spacing={16}>
-            <Grid item xs={12}>
-              <Welcome />
-            </Grid>
-          </Grid>
-          <Grid container spacing={24}>
-            <Grid item xs={12} md={9}>
-              <News />
-            </Grid>
-            <Grid item xs={12} md={3}>
+            <Grid item xs={12} md={6}>
               <Vacancies />
+            </Grid>
+            <Grid item xs={12} md={6}>
               <Bithdays />
+            </Grid>
+            <Grid item xs={12} md={12}>
+              <News />
             </Grid>
           </Grid>
         </main>

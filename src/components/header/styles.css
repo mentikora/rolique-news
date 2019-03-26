@@ -1,14 +1,21 @@
-@media (max-width: 577px) {
-  .header {
-    padding-bottom: 25px; } }
-
-@media (min-width: 578px) {
-  .header {
-    padding-top: 75px;
-    padding-bottom: 75px;
-    padding-left: 25px;
-    padding-right: 25px;
-    background-image: url("./header.png");
-    background-position: calc(100% - 25px) bottom;
-    background-size: contain;
-    background-repeat: no-repeat; } }
+.header {
+  text-align: center; }
+  @media (max-width: 577px) {
+    .header {
+      padding-bottom: 25px; } }
+  @media (min-width: 578px) {
+    .header {
+      padding-left: 25px;
+      padding-right: 25px; } }
+  .header .moto {
+    display: inline-block;
+    color: var(--primary-white); }
+    @media (max-width: 577px) {
+      .header .moto {
+        font-size: 1rem; } }
+    @media (min-width: 578px) {
+      .header .moto {
+        font-size: 2rem;
+        position: relative;
+        top: -35px;
+        left: 35px; } }

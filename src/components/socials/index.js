@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import dou from './images/dou.png';
 
 export default () => (
   <div className='socials'>
@@ -26,6 +27,10 @@ export default () => (
           </g>
         </g>
       </svg>
+    </a>
+    {/* dou */}
+    <a href="https://jobs.dou.ua/companies/rolique/" target="_blank" rel="noopener noreferrer">
+      <img src={dou} alt="dou"/>
     </a>
   </div>
 )

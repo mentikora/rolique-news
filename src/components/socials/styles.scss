@@ -12,6 +12,11 @@
 
     transition: opacity .25s ease-in-out;
 
+    img {
+      max-width: 30px;
+      height: auto;
+    }
+
     &:hover{
       opacity: 1;
     }

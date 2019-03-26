@@ -1,19 +1,29 @@
 .header{
+  text-align: center;
+
   @media(max-width: 577px){
     padding-bottom: 25px;
   }
+  
   @media(min-width: 578px){
     padding: {
-      top: 75px;
-      bottom: 75px;
       left: 25px;
       right: 25px;
     }
-    background: {
-      image: url('./header.png');
-      position: calc(100% - 25px) bottom;
-      size: contain;
-      repeat: no-repeat;
+  }
+
+  .moto {
+    display: inline-block;
+    color: var(--primary-white);
+    
+    @media(max-width: 577px){
+      font-size: 1rem;
+    }
+    @media(min-width: 578px){
+      font-size: 2rem;
+      position: relative;
+      top: -35px;
+      left: 35px;
     }
   }
 }

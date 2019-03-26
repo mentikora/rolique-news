@@ -1,14 +1,15 @@
-.global-list{
+/* global styles for list */
+ul{
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 0;
   list-style: none;
 } 
-  .global-list li{
+  ul li{
     position: relative;
     padding-left: 20px;
   }
-    .global-list li::before{
+    ul li::before{
       content: '\2014';
       display: inline-block;
 

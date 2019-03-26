@@ -35,14 +35,10 @@ class Birthdays extends Component {
             variant='headline'
             gutterBottom
           >
-            Birthday Boom at Rolique
+            Цього місяця ми святкуємо дні народження
           </Typography>
-          { this.state.birthdays && this.state.birthdays.length ? <Typography component='p'>
-              Get your hands ready for clapping cause this motht's kinda birthday-crazy!
-            </Typography> : null
-          }
           <Typography component='div'>
-            <ul className="birthdays-list global-list">
+            <ul className="birthdays-list">
               {
                 this.state.birthdays && this.state.birthdays.map((item, i) => (
                   <li key={i}>

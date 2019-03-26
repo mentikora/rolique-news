@@ -5,17 +5,15 @@
   
   padding: 15px;
 
+  margin: auto;
+
   background-color: var(--primary-blue);
 
-  /* modification large by default */
   &--large{
-    width: 150px;
-    height: 150px;
+    max-width: 320px;
   }
 
-  /* modification small */
   &--small{
     width: 100px;
-    height: 100px;
   }
 }
