@@ -41,7 +41,7 @@ class Vacancies extends Component {
             component='p' 
             color='inherit'
           >
-            Будуй команду, якій довіряєш. рекомендуй своїх друзів та знайомих.
+            Будуй команду, якій довіряєш. Рекомендуй своїх друзів та знайомих.
           </Typography>
           <Typography 
             component='div' 
@@ -57,12 +57,6 @@ class Vacancies extends Component {
               }
             </ul>
           </Typography>
-          {/* <Typography 
-            component='p' 
-            color='inherit'
-          >
-            PS. Feel free to refer your friends and acquaintance to Tanya, Stepan and Albina.
-          </Typography> */}
         </CardContent>
       </Card>
     )

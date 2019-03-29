@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Typography from '@material-ui/core/Typography';
 import './styles.css';
 
 class Logo extends Component {
@@ -7,6 +8,12 @@ class Logo extends Component {
     return(
 
       <div className={`logo logo--${this.props.size}`}>
+        <Typography 
+        component='p'
+        className="moto"
+      >
+        це life, як не крути :)
+      </Typography>
         <svg id='logo' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 366.3 165.6'>
         <g fill={this.props.fill} id='XMLID_16_'>
             <path id='XMLID_126_' d='M76.5,43.6l-0.4,0c-20.7,0-33.1,14-33.1,37.5c0,16.6,10.5,34.5,33.5,34.5 c22.9,0,33.3-17.9,33.3-34.5C109.8,57.7,97.3,43.6,76.5,43.6z M76.3,106.4c-15.2,0-22.8-8.8-22.8-26.1c0-11.7,2.4-27.2,22.9-27.2 c9.8,0.1,22.8,2.9,22.8,27.2C99.2,97.8,91.7,106.3,76.3,106.4z'/>
